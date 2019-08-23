@@ -8,6 +8,7 @@ import { getFirebase } from "../firebase"
 
 const MainPage = () => {
   const [state, updateState] = useState()
+  
   useEffect(() => {
     const init = async () => {
       updateState("ddd")
